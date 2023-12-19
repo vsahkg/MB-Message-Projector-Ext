@@ -1,0 +1,28 @@
+div.body > p, div.body > p >* {
+    font-size: larger !important; 
+  }
+
+div.galleryContent {
+    position: absolute; 
+    top: 5%; 
+    left: 7.5%; 
+    /*transform: translate(0, -10%); */
+    background-color: white; 
+    padding: 20px; 
+    overflow: auto; 
+    max-height: 90vh;  
+    width: 85%;
+}
+
+div.galleryContent div.fr-view {
+    -moz-transform: scale(2); /* for Firefox, default 1*/
+    zoom:200%; /* For Chrome, IE, default 100%*/
+}
+
+div.galleryContent div.date {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    background-color: white; 
+    font-size: 2rem;
+  }
